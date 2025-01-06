@@ -10,13 +10,13 @@ These labs will walk through downloading data and using various Microsoft Fabric
 
 ## Labs
 
-- [Lab 01 - Download the data](\labs\lab01\lab01.md)  
+- [Lab 01 - Download the data](labs/lab01/lab01.md)  
 Manually download the data to be used in the GIAS labs
 
-2. [Set up Fabric](\labs\lab02\lab02.md)  
+2. [Lab 02 - Set up Fabric](labs/lab02/lab02.md)  
 Setup a Fabric Capacity, Workspace and Lakehouse in order to import the data
 
-3. [Import to Lakehouse using Data Pipeline](\labs\lab03\lab03.md)  
+3. [Lab 03 - Import to Lakehouse using Data Pipeline](labs/lab03/lab03.md)  
 Import the data to a Lakehouse
 
 ...
