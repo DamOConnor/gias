@@ -32,10 +32,52 @@ We will now load the files into Tables in the Lakehouse using Data Factory
 
 ![Data pipeline](images/data-pipeline.png)
 
-Specify a name for the data pipeline like *pl_importSchoolsData*".
+Specify a name for the data pipeline like *pl_importSchoolsData*" and click **Create**.
+
+
+7.  Click the **Pipeline activity** button and then find **Get Metadata**.
+
+![Get Metadata](images/get-metadata.png)
+
+This will add a **Get Metadata** activity to the canvas.  This activity can get information about files like their timestamps or structure or list files in a directory.
+
+8.  Configure the Get Metadata activity to list the files in the Lakehouse Files directory:
+
+- Click **Settings**
+- Select your Lakehouse in the **Connection** dropdown
+- Select the **Files** radio button
+- Click **Browse** to find your files
+- Click the **+ New** button in **Field list** and set the argument to **Child items** in the dropdown:
+
+![Get Metadata Config](images/get-metadata-config.png)
+
+- Save and run the pipeline.
+
+![Get Metadata Config](images/save-and-run.png)
+
+The pipeline should run successfully.  If not, work with your instructor to get it working.
+
+9.  Analyse the output
+
+![Analyse Output](images/analyse-output.png)
+
+
+> [!TIP]
+> Input and Output show useful information.  What is listed in the output?
+
+
+10.  Add a **For Each** activity
+
+![For Each](images/for-each.png)
+
+> [!NOTE]
+> You cannot save pipelines in an unfinished state, so add a **Wait activity** inside the **For Each** loop in order to save the pipeline.
+
 
 
 99. Manually fix up the headers to have no spaces and re-upload the files.
+
+100. Rerun the pipeline.
 
 ## Questions
 - ...
