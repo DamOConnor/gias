@@ -1,4 +1,4 @@
-# Lab 03 - Import the data
+# Lab 03 - Import to Lakehouse using Data Pipeline
 Import the data to a Lakehouse
 
 
@@ -99,7 +99,7 @@ The pipeline should run successfully.  If not, work with your instructor to get 
 ![Copy Source config](images/copy-source-config.png)
 
 > [!TIP]
-> Data Pipelines in Microsoft Fabric are backed by an expression language just like Azure Data Factory (ADF) and Synapse Pipelines.  Click `Dynamic content` under any config box to learn more.
+> Data Pipelines in Microsoft Fabric are backed by an expression language just like Azure Data Factory (ADF) and Synapse Pipelines.  Click `Add dynamic content` under any config box to learn more.
 
 
 13.  Configure the **Destination** settings for the **Copy** activity
@@ -127,10 +127,13 @@ If the pipeline succeeds, analyse the output.  If not, work with your instructor
 
 ## Steps part ii
 
-99. Manually fix up the headers in the csvs to have no spaces and re-upload the files.
+98.  Change the destination to a Data Warehouse?
+- Why does this work?
+
+99. Manually fix up the headers in the csvs to have no spaces and re-upload the files.  Repoint back to the Lakehouse.
 
 100. Rerun the pipeline.
 
 ## Next Steps
-- 
+- [Lab 04 - Import to Data Warehouse using Data Pipeline](/labs/lab04/lab04.md)
 - [Home](README.md)
