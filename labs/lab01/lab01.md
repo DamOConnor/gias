@@ -17,7 +17,7 @@ https://get-information-schools.service.gov.uk/
 
 
 4. A message saying "**Download generation completed**" will appear after a short period of time, depending on how many files you have selected.  
-Click the **Results.zip** button to actually down the files
+Click the **Results.zip** button to actually download the files:
 
 ![Download selected files](images/download-generation-complete.png)
 
@@ -36,5 +36,5 @@ Extract the files to a folder and then inspect it.
 - Why couldn't we just do directly this in a Data Pipeline or Notebook?
 
 ## Next Steps
-- [Lab 02 - Set up Fabric](labs/lab02/lab02.md)
+- [Lab 02 - Set up Fabric](/labs/lab02/lab02.md)
 - [Home](README.md)

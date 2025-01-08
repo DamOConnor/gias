@@ -55,5 +55,5 @@ This should take a few seconds and take you through to the Explorer section:
 - What sections does a Lakehouse have in Explorer?
 
 ## Next Steps
-- [Lab 03 - Import the data](labs/lab03/lab03.md)
+- [Lab 03 - Import the data](/labs/lab03/lab03.md)
 - [Home](README.md)
