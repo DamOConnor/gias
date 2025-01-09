@@ -26,11 +26,11 @@ Import the data to a Data Warehouse
 ## Work in progress
 
 
-5. Import using to Lakehouse using a Notebook
+5. ~~Import using to Lakehouse using a Notebook
 Import the data to a Data Warehouse  
-Connect to Data Warehouse from SSMS
+Connect to Data Warehouse from SSMS~~
 
-6. Install Fabric Capacity Metrics app
+6. ~~Install Fabric Capacity Metrics app~~
 
 98. ~~Use AI Skill~~
 99. ~~Use GraphQL~~

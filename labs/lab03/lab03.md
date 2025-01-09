@@ -16,9 +16,16 @@ Import the data to a Lakehouse
 
 Click **Open** to upload the files, then **Upload**.
 
+> [!TIP]
+> Paste in the folder path if you have it on your clipboard.
+
+
 The files should appear in the **Files** area of the Lakehouse
 
 4.  Inspect some of the csv files
+
+## Exercise 2.1
+Spend some time analysing the folder and folder contents in Lakehouse Explorer.
 
 ---
 
@@ -41,7 +48,7 @@ Specify a name for the data pipeline like *pl_importSchoolsData*" and click **Cr
 
 This will add a **Get Metadata** activity to the canvas.  This activity can get information about files like their timestamps or structure or list files in a directory.
 
-8.  Configure the Get Metadata activity to list the files in the Lakehouse Files directory:
+8.  Configure the **Get Metadata** activity to list the files in the Lakehouse Files directory:
 
 - Click **Settings**
 - Select your Lakehouse in the **Connection** dropdown
@@ -55,7 +62,7 @@ This will add a **Get Metadata** activity to the canvas.  This activity can get 
 
 ![Get Metadata Config](images/save-and-run.png)
 
-The pipeline should run successfully.  If not, work with your instructor to get it working.
+The pipeline with just one activity should run successfully.  If not, work with your instructor to get it working.
 
 9.  Analyse the output
 
@@ -65,11 +72,16 @@ The pipeline should run successfully.  If not, work with your instructor to get 
 > [!TIP]
 > Input and Output show useful information.  What is listed in the output?
 
+## Exercise 2.2
+Spend some time analysing the input and output from the activity.
 
 10.  Add a **For Each** activity
 
+- Find **ForEach** on the **Activities** menu
+
 ![For Each](images/for-each.png)
 
+- Connect the **For Each** activity to the **Get Metadata** activity using the **OnSuccess** (green) connector
 - Click on the **For Each** activity and its **Settings** tab
 - Click on the **Items** section and then `Add dynamic content`
 - Click on the item that says **Get Metadata childtems**.  This should add an expression to the Pipeline Expression Builder box.
@@ -79,15 +91,13 @@ The pipeline should run successfully.  If not, work with your instructor to get 
 > You cannot save pipelines in an unfinished state, so add a **Wait activity** inside the **For Each** loop in order to save the pipeline.
 
 
-
-
 11.  Click the Plus sign (+) on the **For Each** activity and add a **Copy** activity *inside* the loop
 
 ![Add Copy activity to For Each loop](images/add-copy-to-loop.png)
 
-- Click the pencil icon on the For Each activity to edit the Copy activity
+- Click the pencil icon on the For Each activity to edit the **Copy** activity
 
-- Click on the Copy activity inside the For Each loop
+- Click on the **Copy** activity inside the For Each loop
 
 12.  Configure the **Source** settings for the **Copy** activity
 - Set the **Connection** to your Lakehouse
@@ -116,7 +126,7 @@ The pipeline should run successfully.  If not, work with your instructor to get 
 
 14.  Save and run the pipeline
 
-If the pipeline succeeds, analyse the output.  If not, work with your instructor to 
+If the pipeline succeeds, analyse the output.  If not, work with your instructor to get it working.
 
 15.  View the tables in the Lakehouse explorer
 

@@ -6,6 +6,9 @@ Manually download the data to be used in the GIAS labs.
 1.  Go to the main website for **Get Information about Schools**:  
 https://get-information-schools.service.gov.uk/
 
+> [!TIP]
+> Hold down <kbd>Ctrl</kbd> and click the link to open in a new window.
+
 2.  In the **Downloads** section, click [Find a download](https://get-information-schools.service.gov.uk/Downloads)  
 
 ![Find a download](images/find-a-download.png)
@@ -29,6 +32,11 @@ This will take a few minutes depending on the number of files you have selected
 6.  Right-click the zip file and click **Extract all...**  
 Extract the files to a folder and then inspect it.
 
+> [!TIP]
+> Copy the path of the folder onto your clipboard as you will need it later.
+
+## Exercise 1.1
+Spend some time analysing the folder and folder contents.
 
 ## Questions
 - How many files have been downloaded?
