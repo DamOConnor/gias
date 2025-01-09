@@ -2,6 +2,9 @@
 Import the data to a Data Warehouse
 
 
+## Prerequisites
+- Create a Data Warehouse using the same naming convention
+
 ## Steps
 
 1.  Clone the previous pipeline
