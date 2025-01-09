@@ -119,7 +119,7 @@ Spend some time analysing the input and output from the activity.
 - Set the expression to: `@split(item().name, '.')[0]`
 
 > [!TIP]
-> The filename consists of the name and the textension, eg `file.csv`  This step splits off the extension so the table name will not have `.csv` in the name
+> The filename consists of the name and the extension, eg `file.csv`  This step splits off the extension so the table name will not have `.csv` in the name
 
 - Click **Advanced**
 - Set the **Table action** to **Overwrite**
@@ -143,6 +143,12 @@ If the pipeline succeeds, analyse the output.  If not, work with your instructor
 99. Manually fix up the headers in the csvs to have no spaces and re-upload the files.  Repoint back to the Lakehouse.
 
 100. Rerun the pipeline.
+
+## Exercise 2.3
+Write some SQL against the tables that have loaded.
+
+## Exercise 2.4
+[Instructor]  Create a notebook that can do the same process.
 
 ## Next Steps
 - [Lab 04 - Import to Data Warehouse using Data Pipeline](/labs/lab04/lab04.md)
