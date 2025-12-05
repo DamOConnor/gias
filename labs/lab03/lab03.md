@@ -8,7 +8,7 @@ Import the data to a Lakehouse
 
 2. Click the three dots (ellipsis) next to **Files**, then **Upload** > **Upload Files**
 
-![Create Lakehouse](images/upload-files.png)
+![Upload files](images/upload-files.png)
 
 3. Select the GIAS files you downloaded and extracted for upload.  These should be in your **Downloads** folder and and "*extract*" subfolder
 
@@ -24,7 +24,7 @@ The files should appear in the **Files** area of the Lakehouse
 
 4.  Inspect some of the csv files
 
-## Exercise 2.1
+## Exercise 3.1
 Spend some time analysing the folder and folder contents in Lakehouse Explorer.
 
 ---
@@ -33,7 +33,7 @@ We will now load the files into Tables in the Lakehouse using Data Factory
 
 5. Select the **Data Engineering** persona:
 
-![Select files](images/data-engineering.png)
+![Data Engineering](images/data-engineering.png)
 
 6.  Find the **Data Pipeline** option in the **Recommended items to create** list:
 
@@ -60,7 +60,7 @@ This will add a **Get Metadata** activity to the canvas.  This activity can get 
 
 - Save and run the pipeline.
 
-![Get Metadata Config](images/save-and-run.png)
+![Save and run](images/save-and-run.png)
 
 The pipeline with just one activity should run successfully.  If not, work with your instructor to get it working.
 
@@ -152,4 +152,4 @@ Write some SQL against the tables that have loaded.
 
 ## Next Steps
 - [Lab 04 - Import to Data Warehouse using Data Pipeline](/labs/lab04/lab04.md)
-- [Home](README.md)
+- [Home](/README.md)

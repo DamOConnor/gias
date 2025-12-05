@@ -25,12 +25,12 @@ If you do not already have a Fabric Capacity or [trial](https://learn.microsoft.
 > Workspaces are backed by Fabric Capacities
 
 > [!IMPORTANT]
-> If you can't see these options, you have not have access to a Fabric Capacity, Trial, it may not be enabled for your organisation or you do not have permissions to view it.  Work with your instructor to get access.
+> If you can't see these options, you do not have access to a Fabric Capacity, Trial, it may not be enabled for your organisation or you do not have permissions to view it.  Work with your instructor to get access.
 
 3. Create a Lakehouse
 - Click the Workload Switcher in the bottom left-hand corner of the screen.  Select **Data Engineering**
 
-![Create New Workspace](images/workload-selector.png)
+![Workload Switcher](images/workload-selector.png)
 
 - Click **Workspaces** in the left-hand menu then the  "**ws_schools_xx**" workspace just created (where xx are your initials)
 
@@ -56,4 +56,4 @@ This should take a few seconds and take you through to the Explorer section:
 
 ## Next Steps
 - [Lab 03 - Import the data](/labs/lab03/lab03.md)
-- [Home](README.md)
+- [Home](/README.md)
