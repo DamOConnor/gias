@@ -22,7 +22,7 @@ https://get-information-schools.service.gov.uk/
 4. A message saying "**Download generation completed**" will appear after a short period of time, depending on how many files you have selected.  
 Click the **Results.zip** button to actually download the files:
 
-![Download selected files](images/download-generation-complete.png)
+![Downloaded selected files](images/download-generation-complete.png)
 
 5.  Inspect the files in the **Downloads** folder.  It should be called "*extract.zip*".  It will have a number suffix (eg "*extract (2).zip*") if you have done this before.  
 This will take a few minutes depending on the number of files you have selected
